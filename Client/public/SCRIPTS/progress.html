@@ -1,0 +1,79 @@
+﻿<html><link href='../../files/main.css' rel='stylesheet'/>
+<title> โปรดรอสักครู่ </title>
+<body onload="initialize();" onunload="checkDone();">
+
+<script>
+
+//function getArgs() {
+// var Args = new Object();
+// var Query = location.search.substring(1);
+// var pairs = query.split(",");
+// for (var i = 0
+var params = window.dialogArguments;
+
+function checkDone()
+{
+	if (retValue == "iterating")
+		การแจ้งเตือน ("คุณได้ยกเลิกการปฏิบัติงาน");
+}
+	
+
+function initialize()
+{
+
+	params.applet.m_progressHandler = HandleLongOp;
+//	showArgument();
+	window.returnValue = HandleLongOp(params.applet, params.method, params.inputPropSet, params.completedSteps, params.totalSteps, params.progressMessage);
+
+//	close();
+}
+
+function updateProgress(progress, message)
+{
+	progressText.innerText= progress;
+	messageText.innerText= message;
+	progressDiv.style.clip= "rect(0 "+ progress*(375/100) + " 14 0)";
+}
+
+var retValue;
+
+function iterateAndClose()
+{
+	retValue = params.window.JSSApplet_DoInvokeMethod(params.applet, params.method, params.inputPropSet);
+	if (retValue != "iterating")
+		close();
+}
+
+function HandleLongOp(applet, method, inputPropSet, completedSteps, totalSteps, progressMessage)
+{
+   var progress = 100*completedSteps/totalSteps;
+   updateProgress(progress, progressMessage);
+   setTimeout("iterateAndClose();", 10);
+}
+
+function showArgument()
+{
+	การแจ้งเตือน (window.dialogArguments.progressMessage);
+}
+
+
+</script>
+<BR>
+<table cols="2"><td><div style="width=4px;"></div> </td> <td>
+   <span id=messageText>  ข้อความ  </span> ...
+</td></table>
+<BR>
+
+<table cols="2"><td><div style="width=4px;"></div></td> <td>
+   <span id=progressText> เสร็จสมบูรณ์ 0  </span> %
+</td></table>
+ 
+<table cols="2"><td><div style="width=4px;"></div></td> <td>
+   <div id='progressContainer' border=1 style='position:relative;background-color:black;width:377px;height:16px;'>
+   <div id='progressBackground' style='left:1;top:1;position:absolute;width:375px;height:20px;background-color:white;z-index:9;clip:rect(0 375 14 0)'></div>
+   <div id='progressDiv' style='left:1;top:1;position:absolute;width:375px;height:20px;background-color:blue;z-index:10;clip:rect(0 0 14 0)'></div>
+</td></table>
+
+
+ </body>
+ </html>

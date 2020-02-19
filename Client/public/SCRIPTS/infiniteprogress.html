@@ -1,0 +1,63 @@
+﻿<html><link href='../../files/main.css' rel='stylesheet'/>
+<title> โปรดรอสักครู่ </title>
+<body bgcolor="#ffffff" leftmargin="5" topmargin="2" marginwidth="5" marginheight="2" onload="initialize();" onunload="checkDone();">
+
+<script>
+
+var params = window.dialogArguments;
+
+function checkDone()
+{
+	if (retValue == "iterating")
+		การแจ้งเตือน ("คุณได้ยกเลิกการปฏิบัติงาน");
+}
+	
+
+function initialize()
+{
+	params.applet.m_progressHandler = HandleLongOp;
+	window.returnValue = HandleLongOp(params.applet, params.method, params.inputPropSet, params.completedSteps, params.totalSteps, params.progressMessage);
+}
+
+function updateProgress(progress, message)
+{
+	messageText.innerText= message;
+}
+
+var retValue;
+
+function iterateAndClose()
+{
+	retValue = params.window.JSSApplet_DoInvokeMethod(params.applet, params.method, params.inputPropSet);
+	if (retValue != "iterating")
+		close();
+}
+
+function HandleLongOp(applet, method, inputPropSet, completedSteps, totalSteps, progressMessage)
+{
+   var progress = 100*completedSteps/totalSteps;
+   updateProgress(progress, progressMessage);
+   if (completedSteps==1 && totalSteps==1)
+   {
+		graphicSpan.innerHTML = "<img src='../../images/proc_completed.gif'></img>";
+		buttonSpan.innerHTML = "<button CLASS=clsButtonOut onclick='iterateAndClose();'>   Ok   </div</button>";
+//        buttonSpan.innerHTML = '<td WIDTH="6"><img src="images/btn_opn_d.gif" height="15" width="6" alt=""></td><td BACKGROUND="images/btn_mid.gif" class="minibuttonOn"><nobr><a href="JavaScript:iterateAndClose()" >Done</a></nobr></td><td ALIGN="RIGHT" WIDTH="6"><img src="images/btn_cls_d.gif" height="15" width="6" alt=""></td>';
+
+   }
+   else
+   setTimeout("iterateAndClose();", 10);
+}
+
+function showArgument()
+{
+	การแจ้งเตือน (window.dialogArguments.progressMessage);
+}
+
+
+</script>
+
+<br> <table><td></td><td><span id=graphicSpan> <img src="../../images/proc_in_progress.gif"></img></span></td><td><div style="width:30"></div></td> <td><span id=messageText>  </span>... </td></table>
+<table><td><div style="width:250px"></div></td><td><span id=buttonSpan> <div style="width:20"></div></span></td></table>
+
+</body>
+</html>

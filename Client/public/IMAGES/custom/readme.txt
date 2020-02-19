@@ -1,0 +1,1 @@
+Open UI images are stored in the "images" folder. Customers are advised not to store their images in the same folder in order to avoid the images being overwritten by Oracle in future upgrades. Please store your images in this folder ("images\custom") instead.

@@ -1,0 +1,19 @@
+.btn-danger{
+    color: white;
+    background-color:rgba(45, 105, 220, 0.8);
+    border-color:rgba(40, 75, 140, 0.6);
+    border-radius: 3px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(10, 15, 20, 0.5);
+}
+
+.btn-danger:hover{
+    color: white;
+    background-color:rgba(20, 55, 120, 0.8);
+    border-color:rgba(40, 75, 140, 0.6);
+    border-radius: 3px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(10, 15, 20, 0.5);
+    cursor:pointer;
+    box-shadow:0 0 0 .2rem rgba(83, 185, 225, 0.2);
+}

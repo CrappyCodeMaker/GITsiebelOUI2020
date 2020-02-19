@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<REPOSITORY
+   NAME="Siebel Repository"
+   UPDATED="04/05/2016 03:46:11"
+   UPDATED_BY="SIEBEL"
+   CREATED="04/05/2016 03:23:39"
+   CREATED_BY="SIEBEL"
+   FIO_PLACEHOLDER_FIO="TRUE">
+	<PROJECT
+	   ALLOW_OBJECT_LOCKING="Y"
+	   INACTIVE="N"
+	   LANGUAGE_LOCKED="ENU"
+	   LOCKED="Y"
+	   LOCKED_DATE="02/11/2020 04:22:54"
+	   NAME="Contact OUI"
+	   UI_FREEZE="N"
+	   LOCKED_BY_NAME="SADMIN"
+	   UPDATED="02/16/2020 22:28:15"
+	   UPDATED_BY="SADMIN"
+	   CREATED="02/11/2020 04:22:32"
+	   CREATED_BY="SADMIN"
+	   FIO_PLACEHOLDER_FIO="TRUE">
+		<WEB_TEMPLATE
+		   INACTIVE="N"
+		   NAME="View Contact Custom"
+		   OBJECT_LANGUAGE_LOCKED="ENU"
+		   OBJECT_LOCKED="Y"
+		   OBJECT_LOCKED_DATE="02/13/2020 04:06:06"
+		   TYPE="View Template"
+		   OBJECT_LOCKED_BY_NAME="SADMIN"
+		   UPDATED="02/13/2020 04:11:37"
+		   UPDATED_BY="SADMIN"
+		   CREATED="02/13/2020 04:05:47"
+		   CREATED_BY="SADMIN">
+			<WEB_TEMPLATE_FILE
+			   BITMAP="ConCustView"
+			   FILE_NAME="ConCustView.swt"
+			   INACTIVE="N"
+			   MARKUP_LANGUAGE="HTML"
+			   NAME="ConCustView.swt"
+			   UPDATED="02/13/2020 04:11:37"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+			</WEB_TEMPLATE_FILE>
+			<WEB_TEMPLATE_ITEM
+			   ASSOC_TEMPLATE_NAME="CCHTMLFooter"
+			   COMMENTS="Template Migration"
+			   NAME="CCHTMLFooter_45"
+			   SEQUENCE="45"
+			   TYPE="Container"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   ASSOC_TEMPLATE_NAME="CCHTMLHeader"
+			   COMMENTS="Template Migration"
+			   NAME="CCHTMLHeader_1"
+			   SEQUENCE="1"
+			   TYPE="Container"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   ASSOC_TEMPLATE_NAME="CCSubordinateAppletsBorderStart"
+			   COMMENTS="Template Migration"
+			   NAME="CCSubordinateAppletsBorderStart_15"
+			   SEQUENCE="15"
+			   TYPE="Container"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   ASSOC_TEMPLATE_NAME="CCTaskViewTitle"
+			   COMMENTS="Template Migration"
+			   NAME="CCTaskViewTitle_2"
+			   SEQUENCE="2"
+			   TYPE="Container"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   ASSOC_TEMPLATE_NAME="CCViewbar_Tabs_DropList"
+			   COMMENTS="Template Migration"
+			   NAME="CCViewbar_Tabs_DropList_14"
+			   SEQUENCE="14"
+			   TYPE="Container"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   COMMENTS="Template Migration"
+			   ITEM_IDENTIFIER_NAME="SiebExtendedApplet"
+			   NAME="Extend Applet_36"
+			   SEQUENCE="36"
+			   TYPE="Content Item"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+				<WEB_TEMPLATE_ITEM_PROP
+				   COMMENTS="Template Migration"
+				   NAME="Context"
+				   TYPE="Content Item Property"
+				   VALUE="Grandchild"
+				   UPDATED="02/13/2020 04:05:47"
+				   UPDATED_BY="SADMIN"
+				   CREATED="02/13/2020 04:05:47"
+				   CREATED_BY="SADMIN">
+				</WEB_TEMPLATE_ITEM_PROP>
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   COMMENTS="Template Migration"
+			   HTML_ATTR="class = &quot;siebui-view-multi-column&quot;"
+			   ITEM_IDENTIFIER_NAME="WTI_16"
+			   NAME="WTI_16"
+			   SEQUENCE="16"
+			   TYPE="Container"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+				<WEB_TEMPLATE_ITEM_PROP
+				   COMMENTS="Template Migration"
+				   NAME="Markup"
+				   TYPE="Generic Property"
+				   VALUE="&lt;div&gt;"
+				   UPDATED="02/13/2020 04:05:47"
+				   UPDATED_BY="SADMIN"
+				   CREATED="02/13/2020 04:05:47"
+				   CREATED_BY="SADMIN">
+				</WEB_TEMPLATE_ITEM_PROP>
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   COMMENTS="Template Migration"
+			   HTML_ATTR="class = &quot;siebui-span-lg-12 siebui-span-md-12 siebui-span-sm-12&quot;"
+			   ITEM_IDENTIFIER_NAME="WTI_17"
+			   NAME="WTI_17"
+			   SEQUENCE="17"
+			   TYPE="Container"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+				<WEB_TEMPLATE_ITEM_PROP
+				   COMMENTS="Template Migration"
+				   NAME="Markup"
+				   TYPE="Generic Property"
+				   VALUE="&lt;div&gt;"
+				   UPDATED="02/13/2020 04:05:47"
+				   UPDATED_BY="SADMIN"
+				   CREATED="02/13/2020 04:05:47"
+				   CREATED_BY="SADMIN">
+				</WEB_TEMPLATE_ITEM_PROP>
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   COMMENTS="Template Migration"
+			   ITEM_IDENTIFIER_NAME="WTI_26"
+			   NAME="WTI_26"
+			   SEQUENCE="26"
+			   TYPE="Container"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+				<WEB_TEMPLATE_ITEM_PROP
+				   COMMENTS="Template Migration"
+				   NAME="Markup"
+				   TYPE="Generic Property"
+				   VALUE="&lt;/div&gt;"
+				   UPDATED="02/13/2020 04:05:47"
+				   UPDATED_BY="SADMIN"
+				   CREATED="02/13/2020 04:05:47"
+				   CREATED_BY="SADMIN">
+				</WEB_TEMPLATE_ITEM_PROP>
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   COMMENTS="Template Migration"
+			   HTML_ATTR="class = &quot;siebui-span-lg-6 siebui-span-md-6 siebui-span-sm-12&quot;"
+			   ITEM_IDENTIFIER_NAME="WTI_27"
+			   NAME="WTI_27"
+			   SEQUENCE="27"
+			   TYPE="Container"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+				<WEB_TEMPLATE_ITEM_PROP
+				   COMMENTS="Template Migration"
+				   NAME="Markup"
+				   TYPE="Generic Property"
+				   VALUE="&lt;div&gt;"
+				   UPDATED="02/13/2020 04:05:47"
+				   UPDATED_BY="SADMIN"
+				   CREATED="02/13/2020 04:05:47"
+				   CREATED_BY="SADMIN">
+				</WEB_TEMPLATE_ITEM_PROP>
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   COMMENTS="Template Migration"
+			   ITEM_IDENTIFIER_NAME="WTI_34"
+			   NAME="WTI_34"
+			   SEQUENCE="34"
+			   TYPE="Container"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+				<WEB_TEMPLATE_ITEM_PROP
+				   COMMENTS="Template Migration"
+				   NAME="Markup"
+				   TYPE="Generic Property"
+				   VALUE="&lt;/div&gt;"
+				   UPDATED="02/13/2020 04:05:47"
+				   UPDATED_BY="SADMIN"
+				   CREATED="02/13/2020 04:05:47"
+				   CREATED_BY="SADMIN">
+				</WEB_TEMPLATE_ITEM_PROP>
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   COMMENTS="Template Migration"
+			   HTML_ATTR="class = &quot;siebui-span-lg-6 siebui-span-md-6 siebui-span-sm-12&quot;"
+			   ITEM_IDENTIFIER_NAME="WTI_35"
+			   NAME="WTI_35"
+			   SEQUENCE="35"
+			   TYPE="Container"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+				<WEB_TEMPLATE_ITEM_PROP
+				   COMMENTS="Template Migration"
+				   NAME="Markup"
+				   TYPE="Generic Property"
+				   VALUE="&lt;div&gt;"
+				   UPDATED="02/13/2020 04:05:47"
+				   UPDATED_BY="SADMIN"
+				   CREATED="02/13/2020 04:05:47"
+				   CREATED_BY="SADMIN">
+				</WEB_TEMPLATE_ITEM_PROP>
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   COMMENTS="Template Migration"
+			   ITEM_IDENTIFIER_NAME="WTI_43"
+			   NAME="WTI_43"
+			   SEQUENCE="43"
+			   TYPE="Container"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+				<WEB_TEMPLATE_ITEM_PROP
+				   COMMENTS="Template Migration"
+				   NAME="Markup"
+				   TYPE="Generic Property"
+				   VALUE="&lt;/div&gt;"
+				   UPDATED="02/13/2020 04:05:47"
+				   UPDATED_BY="SADMIN"
+				   CREATED="02/13/2020 04:05:47"
+				   CREATED_BY="SADMIN">
+				</WEB_TEMPLATE_ITEM_PROP>
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   COMMENTS="Template Migration"
+			   ITEM_IDENTIFIER_NAME="WTI_44"
+			   NAME="WTI_44"
+			   SEQUENCE="44"
+			   TYPE="Container"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+				<WEB_TEMPLATE_ITEM_PROP
+				   COMMENTS="Template Migration"
+				   NAME="Markup"
+				   TYPE="Generic Property"
+				   VALUE="&lt;/div&gt;"
+				   UPDATED="02/13/2020 04:05:47"
+				   UPDATED_BY="SADMIN"
+				   CREATED="02/13/2020 04:05:47"
+				   CREATED_BY="SADMIN">
+				</WEB_TEMPLATE_ITEM_PROP>
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   COMMENTS="Template Migration"
+			   ITEM_IDENTIFIER_NAME="SiebApplet_1"
+			   NAME="swe:applet_12"
+			   SEQUENCE="12"
+			   TYPE="Content Item"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+				<WEB_TEMPLATE_ITEM_PROP
+				   COMMENTS="Template Migration"
+				   NAME="Context"
+				   TYPE="Content Item Property"
+				   VALUE="ParentWithPointer"
+				   UPDATED="02/13/2020 04:05:47"
+				   UPDATED_BY="SADMIN"
+				   CREATED="02/13/2020 04:05:47"
+				   CREATED_BY="SADMIN">
+				</WEB_TEMPLATE_ITEM_PROP>
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   COMMENTS="Template Migration"
+			   ITEM_IDENTIFIER_NAME="SiebApplet_2"
+			   NAME="swe:applet_18"
+			   SEQUENCE="18"
+			   TYPE="Content Item"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+				<WEB_TEMPLATE_ITEM_PROP
+				   COMMENTS="Template Migration"
+				   NAME="Context"
+				   TYPE="Content Item Property"
+				   VALUE="Child"
+				   UPDATED="02/13/2020 04:05:47"
+				   UPDATED_BY="SADMIN"
+				   CREATED="02/13/2020 04:05:47"
+				   CREATED_BY="SADMIN">
+				</WEB_TEMPLATE_ITEM_PROP>
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   COMMENTS="Template Migration"
+			   ITEM_IDENTIFIER_NAME="SiebApplet_3"
+			   NAME="swe:applet_20"
+			   SEQUENCE="20"
+			   TYPE="Content Item"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+				<WEB_TEMPLATE_ITEM_PROP
+				   COMMENTS="Template Migration"
+				   NAME="Context"
+				   TYPE="Content Item Property"
+				   VALUE="Grandchild"
+				   UPDATED="02/13/2020 04:05:47"
+				   UPDATED_BY="SADMIN"
+				   CREATED="02/13/2020 04:05:47"
+				   CREATED_BY="SADMIN">
+				</WEB_TEMPLATE_ITEM_PROP>
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   COMMENTS="Template Migration"
+			   ITEM_IDENTIFIER_NAME="SiebApplet_4"
+			   NAME="swe:applet_22"
+			   SEQUENCE="22"
+			   TYPE="Content Item"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+				<WEB_TEMPLATE_ITEM_PROP
+				   COMMENTS="Template Migration"
+				   NAME="Context"
+				   TYPE="Content Item Property"
+				   VALUE="Grandchild"
+				   UPDATED="02/13/2020 04:05:47"
+				   UPDATED_BY="SADMIN"
+				   CREATED="02/13/2020 04:05:47"
+				   CREATED_BY="SADMIN">
+				</WEB_TEMPLATE_ITEM_PROP>
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   COMMENTS="Template Migration"
+			   ITEM_IDENTIFIER_NAME="SiebApplet_5"
+			   NAME="swe:applet_24"
+			   SEQUENCE="24"
+			   TYPE="Content Item"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+				<WEB_TEMPLATE_ITEM_PROP
+				   COMMENTS="Template Migration"
+				   NAME="Context"
+				   TYPE="Content Item Property"
+				   VALUE="Grandchild"
+				   UPDATED="02/13/2020 04:05:47"
+				   UPDATED_BY="SADMIN"
+				   CREATED="02/13/2020 04:05:47"
+				   CREATED_BY="SADMIN">
+				</WEB_TEMPLATE_ITEM_PROP>
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   COMMENTS="Template Migration"
+			   ITEM_IDENTIFIER_NAME="SiebApplet_6"
+			   NAME="swe:applet_28"
+			   SEQUENCE="28"
+			   TYPE="Content Item"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+				<WEB_TEMPLATE_ITEM_PROP
+				   COMMENTS="Template Migration"
+				   NAME="Context"
+				   TYPE="Content Item Property"
+				   VALUE="Grandchild"
+				   UPDATED="02/13/2020 04:05:47"
+				   UPDATED_BY="SADMIN"
+				   CREATED="02/13/2020 04:05:47"
+				   CREATED_BY="SADMIN">
+				</WEB_TEMPLATE_ITEM_PROP>
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   COMMENTS="Template Migration"
+			   ITEM_IDENTIFIER_NAME="SiebApplet_7"
+			   NAME="swe:applet_30"
+			   SEQUENCE="30"
+			   TYPE="Content Item"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+				<WEB_TEMPLATE_ITEM_PROP
+				   COMMENTS="Template Migration"
+				   NAME="Context"
+				   TYPE="Content Item Property"
+				   VALUE="Grandchild"
+				   UPDATED="02/13/2020 04:05:47"
+				   UPDATED_BY="SADMIN"
+				   CREATED="02/13/2020 04:05:47"
+				   CREATED_BY="SADMIN">
+				</WEB_TEMPLATE_ITEM_PROP>
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   COMMENTS="Template Migration"
+			   ITEM_IDENTIFIER_NAME="SiebApplet_10"
+			   NAME="swe:applet_32"
+			   SEQUENCE="32"
+			   TYPE="Content Item"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+				<WEB_TEMPLATE_ITEM_PROP
+				   COMMENTS="Template Migration"
+				   NAME="Context"
+				   TYPE="Content Item Property"
+				   VALUE="Grandchild"
+				   UPDATED="02/13/2020 04:05:47"
+				   UPDATED_BY="SADMIN"
+				   CREATED="02/13/2020 04:05:47"
+				   CREATED_BY="SADMIN">
+				</WEB_TEMPLATE_ITEM_PROP>
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   COMMENTS="Template Migration"
+			   ITEM_IDENTIFIER_NAME="SiebApplet_8"
+			   NAME="swe:applet_37"
+			   SEQUENCE="37"
+			   TYPE="Content Item"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+				<WEB_TEMPLATE_ITEM_PROP
+				   COMMENTS="Template Migration"
+				   NAME="Context"
+				   TYPE="Content Item Property"
+				   VALUE="Grandchild"
+				   UPDATED="02/13/2020 04:05:47"
+				   UPDATED_BY="SADMIN"
+				   CREATED="02/13/2020 04:05:47"
+				   CREATED_BY="SADMIN">
+				</WEB_TEMPLATE_ITEM_PROP>
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   COMMENTS="Template Migration"
+			   ITEM_IDENTIFIER_NAME="SiebApplet_9"
+			   NAME="swe:applet_39"
+			   SEQUENCE="39"
+			   TYPE="Content Item"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+				<WEB_TEMPLATE_ITEM_PROP
+				   COMMENTS="Template Migration"
+				   NAME="Context"
+				   TYPE="Content Item Property"
+				   VALUE="Grandchild"
+				   UPDATED="02/13/2020 04:05:47"
+				   UPDATED_BY="SADMIN"
+				   CREATED="02/13/2020 04:05:47"
+				   CREATED_BY="SADMIN">
+				</WEB_TEMPLATE_ITEM_PROP>
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   COMMENTS="Template Migration"
+			   ITEM_IDENTIFIER_NAME="SiebApplet_11"
+			   NAME="swe:applet_41"
+			   SEQUENCE="41"
+			   TYPE="Content Item"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+				<WEB_TEMPLATE_ITEM_PROP
+				   COMMENTS="Template Migration"
+				   NAME="Context"
+				   TYPE="Content Item Property"
+				   VALUE="Grandchild"
+				   UPDATED="02/13/2020 04:05:47"
+				   UPDATED_BY="SADMIN"
+				   CREATED="02/13/2020 04:05:47"
+				   CREATED_BY="SADMIN">
+				</WEB_TEMPLATE_ITEM_PROP>
+			</WEB_TEMPLATE_ITEM>
+			<WEB_TEMPLATE_ITEM
+			   COMMENTS="Template Migration"
+			   ITEM_IDENTIFIER_NAME="SiebApplet_201"
+			   NAME="swe:applet_5"
+			   SEQUENCE="5"
+			   TYPE="Content Item"
+			   UPDATED="02/13/2020 04:05:47"
+			   UPDATED_BY="SADMIN"
+			   CREATED="02/13/2020 04:05:47"
+			   CREATED_BY="SADMIN">
+				<WEB_TEMPLATE_ITEM_PROP
+				   COMMENTS="Template Migration"
+				   NAME="Control Context"
+				   TYPE="Control Property"
+				   VALUE="FormattedHTML"
+				   UPDATED="02/13/2020 04:05:47"
+				   UPDATED_BY="SADMIN"
+				   CREATED="02/13/2020 04:05:47"
+				   CREATED_BY="SADMIN">
+				</WEB_TEMPLATE_ITEM_PROP>
+			</WEB_TEMPLATE_ITEM>
+		</WEB_TEMPLATE>
+	</PROJECT>
+</REPOSITORY>
+
+
+

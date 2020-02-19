@@ -1,0 +1,22 @@
+<HTML>
+<HEAD>
+</HEAD>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+    //newWin = window;
+
+    // USE THE JAVASCRIPT-GENERATED DOCUMENTS (calDocTop, calDocBottom) IN THE FRAMESET
+    calDocFrameset = 
+        "<FRAMESET ROWS='37,120,55,*' BORDER='0'>\n" +
+        "  <FRAME NAME='topCalFrame' marginheight='5' SRC='javascript:parent.opener.calDocTop' SCROLLING='no' FRAMEBORDER='0'>\n" +
+        "  <FRAME NAME='bottomCalFrame' marginheight='5' SRC='javascript:parent.opener.calDocBottom' SCROLLING='no'>\n" +
+        "  <FRAME NAME='timeFrame' marginheight='5' SRC='javascript:parent.opener.timeDoc' SCROLLING='no' FRAMEBORDER='0'>\n" +
+        "  <FRAME NAME='buttonFrame' marginheight='5' marginwidth='5' SRC='javascript:parent.opener.buttonDoc' SCROLLING='no'>\n" +
+        "</FRAMESET>\n";
+
+    document.write(calDocFrameset);
+
+</SCRIPT>
+
+</HTML>
