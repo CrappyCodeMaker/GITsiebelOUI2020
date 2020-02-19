@@ -1,5 +1,5 @@
-View
-Applet
-BC
-Field
-WEBTEMPL
+tools:
+View / Applet / BC / Field / WEBTEMPL
+
+client:
+CSS / JS 
