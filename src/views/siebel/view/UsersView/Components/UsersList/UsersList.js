@@ -103,7 +103,7 @@ export default class UsersList extends Component {
             responsive
             tableFilter
             itemsPerPageSelect
-            itemsPerPage={3}
+            itemsPerPage={5}
             sorter
             pagination={paginationSettings}
             clickableRows
