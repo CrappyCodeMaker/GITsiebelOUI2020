@@ -1,4 +1,4 @@
-# <p align="center">STUDY PROJECT</p>
+## <p align="center">STUDY PROJECT</p>
 
 ---
 
