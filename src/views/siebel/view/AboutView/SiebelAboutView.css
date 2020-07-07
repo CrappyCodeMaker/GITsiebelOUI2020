@@ -1,0 +1,25 @@
+.header-first-lvl {
+  background: #303c54 !important;
+  color: #ebedef !important;
+  border-bottom: 0px solid;
+  border-color: transparent !important;
+}
+
+.small-text-muted {
+  color: #9da5b1;
+}
+
+.body-first-lvl {
+  background: #3c4b64 !important;
+  color: #ebedef !important;
+}
+
+.collapse-header {
+  background: #d8dbe0 !important;
+}
+
+.collapse-body {
+  background: #ebedef !important;
+  border-radius: 3px;
+  color: #636f83;
+}

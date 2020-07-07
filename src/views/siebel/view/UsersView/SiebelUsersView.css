@@ -1,0 +1,31 @@
+.header-first-lvl {
+  background: #303c54 !important;
+  color: #ebedef !important;
+  border-bottom: 0px solid;
+  border-color: transparent !important;
+}
+
+.small-text-muted,
+.small-text-muted-link {
+  color: #9da5b1;
+}
+
+.body-first-lvl {
+  background: #3c4b64 !important;
+  color: #ebedef !important;
+}
+
+.siebel-user-view {
+  border-color: transparent !important;
+  background-color: transparent !important;
+}
+
+.small-text-muted-link:hover {
+  color: #ebedef !important;
+  outline: 0;
+  text-decoration: none;
+}
+
+a.card-header-action:hover {
+  color: #ebedef !important;
+}

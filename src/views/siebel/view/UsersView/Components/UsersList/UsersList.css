@@ -1,0 +1,63 @@
+.users-list-paginations ul li a {
+  background: transparent !important;
+  border: 0;
+  color: #9da5b1;
+}
+
+.users-list-paginations ul li a:hover {
+  background: #d8dbe0 !important;
+  border-radius: 3px;
+  color: #636f83;
+}
+
+.page-link:focus {
+  z-index: 3;
+  outline: 0;
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.users-list-paginations ul li[class="active page-item"] a {
+  background: #636f83 !important;
+  border: 0;
+  color: #ebedef !important;
+  border-radius: 3px;
+}
+
+.page-item .disabled {
+  color: #d8dbe0 !important;
+}
+
+.header-second-lvl {
+  background: #d8dbe0 !important;
+}
+
+.body-second-lvl {
+  background: #ebedef !important;
+}
+
+.left {
+  float: left !important;
+  margin-left: -0.7rem !important;
+  margin-right: 0.7rem !important;
+}
+
+.float-left {
+  float: left !important;
+}
+
+.icon-header {
+  color: #636f83;
+}
+
+.icon-header .link:hover {
+  color: #303c54;
+}
+
+.text-div {
+  margin: auto;
+  width: 75%;
+  text-align: center;
+  color: #ced2d8;
+  font-weight: bold;
+  font-size: 110%;
+}

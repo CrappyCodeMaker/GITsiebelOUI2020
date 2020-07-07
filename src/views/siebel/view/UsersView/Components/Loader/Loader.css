@@ -1,0 +1,68 @@
+@keyframes load-block {
+  0% {
+    opacity: 1;
+    top: 0px;
+    height: 13px;
+  }
+  50% {
+    opacity: 0.5;
+    top: 1px;
+    height: 13px;
+  }
+  100% {
+    opacity: 0;
+    top: 3px;
+    height: 13px;
+  }
+}
+
+.loading-blocks div:nth-child(1) {
+  background: #ced2d8;
+  animation: load-block 1.4s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  animation-delay: -6.1s;
+}
+.loading-blocks div:nth-child(2) {
+  background: #ced2d8;
+  animation: load-block 1.4s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  animation-delay: -4.6s;
+}
+.loading-blocks div:nth-child(3) {
+  background: #ced2d8;
+  animation: load-block 1.4s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  animation-delay: -3s;
+}
+.loading-blocks div:nth-child(4) {
+  background: #ced2d8;
+  animation: load-block 1.4s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  animation-delay: -1.5s;
+}
+.loading-blocks div:nth-child(5) {
+  background: #ced2d8;
+  animation: load-block 1.4s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  animation-delay: undefineds;
+}
+
+.loader-div {
+  margin: 0.5rem;
+}
+
+.loading-spinner-pulse {
+  margin: auto;
+  width: 10rem;
+  height: 30px;
+  overflow: hidden;
+  background: transparent;
+}
+.loading-blocks {
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+  display: flex;
+  justify-content: space-around;
+}
+.loading-blocks div {
+  margin-top: 5%;
+  width: 13px;
+  border-radius: 100%;
+  position: relative;
+}

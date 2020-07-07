@@ -1,0 +1,11 @@
+.error-div {
+  margin: 0.5rem;
+}
+.text-error-div {
+  margin: auto;
+  width: 75%;
+  text-align: center;
+  color: #b30600;
+  font-weight: bold;
+  font-size: 110%;
+}
