@@ -2,6 +2,8 @@
 
 ---
 
+<p align="center"><img width="800px" src="https://sun1-92.userapi.com/QVaciQaMA6N8dwMxD4MxAhMJ2rCYc6d9fDy5MQ/lIxMxwnZtBM.jpg"></p>
+
 ---
 
 ### JSONPlaceholder API
